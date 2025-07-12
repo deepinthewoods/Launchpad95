@@ -218,6 +218,7 @@ class InstrumentControllerComponent(CompoundComponent):
 				self._osd.mode = self._osd_mode_backup
 				if(not self._scales.is_quick_scale):
 					self._note_repeat.set_enabled(False)
+				self.set_enabled(True)
 				self.update()
 
 
